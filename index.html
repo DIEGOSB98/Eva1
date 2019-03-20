@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MACH Web</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilo1.css">
+    <link rel="stylesheet" href="css/teclado_numerico.css">
+    <script src="js/teclado_numerico.js"></script>
+    <link rel="icon" type="image/png" href="img/incono.png" />
+</head>
+<body style="background:#CAA7E8; ">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border rounded">
+                <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="https://d1.awsstatic.com/case-studies/Latam%20Cases%20Assets/LogoMACH.cb23ff6edde7962bb0dee9f9740cd26833354b0b.png" width="150" height="45" alt="">
+                    </a>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html"><strong style="color:#6C2BE5">INCIO</stv5xrong> <span class="sr-only">(current)</span></a>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </nav>
+
+              <div class="text-center" style="padding: 150px;">
+                    
+                    <a href="#myModal" class="trigger-btn" data-toggle="modal"><strong style="font-size: 53px;">INGRESAR A MACH WEB</strong></a>
+                </div>
+                
+              <form id="form1">
+                <div id="myModal" class="modal fade">
+                    <div class="modal-dialog modal-login">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="avatar">
+                                    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/68/78/65/68786597-0dcb-6376-8343-1ba6088eba21/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/246x0w.jpg" alt="Avatar">
+                                </div>				
+                                <h4 class="modal-title">Mach Web</h4>	
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            </div>
+                            
+                <input maxlength="4" style="font-size:30px; text-align: center; border-radius: 20px;" type="text" readonly id="campo" maxlength="4" class="teclado_text"> 
+                <input style="font-size:30px; text-align: center;" type="hidden" readonly id="campo2" class="teclado_text"> 
+                <br>  
+                <table class="table_teclado">
+                  <tr>
+                    <td><h3><strong>1</strong></h3></td>
+                    <td><h3><strong>2</strong></h3></td>
+                    <td><h3><strong>3</strong></h3></td>
+                  </tr>
+                  <tr>
+                    <td><h3><strong>4</strong></h3></td>
+                    <td><h3><strong>5</strong></h3></td>
+                    <td><h3><strong>6</strong></h3></td>
+                  </tr>
+                  <tr>
+                    <td><h3><strong>7</strong></h3></td>
+                    <td><h3><strong>8</strong></h3></td>
+                    <td><h3><strong>9</strong></h3></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><h3><strong>0</strong></h3></td>
+                    <td><img  ></td>
+                  </tr>
+                  </table>
+                  <br>
+                  <button type="button" class="btn btn-dark" onclick="mensaje()">Ingresar</button>
+                        </div>
+                    </div>
+                </div>    
+                
+              </form>
+
+              <div style="background-color:#F1E0FF; height: 655px;">
+
+                <div style="padding:120px;">
+                  <h3 style="font-family: sans-serif; font-size: 50px;">Más de 20.000 comercios aceptan MACH</h3>
+                </div>
+                
+                <div class="container" >
+                  <div class="row">
+                    <div class="col-sm">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Logo_Netflix.png" height="200" width="260">
+                    </div>
+                    <div class="col-sm">
+                      <img src="https://images.vexels.com/media/users/3/137413/isolated/preview/4acb8e52632aa9b7c874b878eaf02bc4-icono-de-spotify-logo-by-vexels.png" height="200" width="200">
+                    </div>
+                    <div class="col-sm">
+                      <img src="https://cdn.freebiesupply.com/images/large/2x/steam-logo-transparent.png" height="200" width="200">
+                    </div>
+                    <div class="col-sm">
+                      <img src="https://cnet2.cbsistatic.com/img/pWJsfBWvPS5L7Md3bs3Fuz7X100=/970x0/2017/05/11/c4c06fe6-4534-416b-948d-7928acdd5c0a/googleplaystorelogo.png" height="200" width="200">
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+
+              <div style="background-color:#981DFF; height: 775px; " >
+
+                <div class="container" style="padding:129px;">
+                  <div class="row">
+                    <div class="col-sm">
+                      <img src="https://uploads-ssl.webflow.com/5b043e56e114c84331e2db5e/5c20f1ff4fdbba40a0bb0095_home3%402x.png" width="400" height="350">
+                    </div>
+                    <div class="col-sm">
+
+                      <div class="col-sm" style="margin:45px;">
+                        <h2 style="font-family: sans-serif; font-size: 50px; color: white;">Transfiere y comparte <br>gastos con tus contactos<br></h2>
+                        <br><small><h4 style="font-family: sans-serif; color: white;">a tus amigos desde tu teléfono sin tarjeta de coordenadas ni datos de cuenta. 
+                          Salda deudas con tus amigos o divide la cuenta.</h4></small>  
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+</body>
+</html>
